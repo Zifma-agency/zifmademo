@@ -97,17 +97,24 @@ const HeroWithLogos = () => {
           </div>
         </div>
         
-        <div>
-          <div className="mx-auto flex h-[288px] max-w-[80vw] shrink-0 flex-col items-center justify-center gap-2 px-2 py-4 sm:px-10 lg:px-24">
-            <h1 className="text-pretty text-center text-4xl sm:text-5xl md:text-6xl lg:text-[clamp(50px,7vw,75px)] font-medium leading-none tracking-[-1.44px] md:max-w-screen-lg md:tracking-[-2.16px] text-foreground">
-              Developer First Headless CMS for solo&apos;s and enterprice
-            </h1>
-            <h2 className="text-md max-w-2xl text-pretty text-center text-muted-foreground md:text-lg">
-              You can put any thing as sub heading for SDK wrrapper thing here
-              with some details
-            </h2>
+          <div>
+            <div className="mx-auto flex h-[288px] max-w-[80vw] shrink-0 flex-col items-center justify-center gap-2 px-2 py-4 sm:px-10 lg:px-24">
+              <h1 className="font-montserrat text-pretty text-center text-4xl sm:text-5xl md:text-6xl lg:text-[67px] font-semibold leading-tight lg:leading-[74px] tracking-[-1.44px] md:max-w-screen-lg md:tracking-[-2.16px]" style={{ color: '#020817' }}>
+                Launch Your Business Website in{' '}
+                <span className="italic" style={{ color: '#F6827F' }}>
+                  48 Hours
+                </span>
+                {' '}— Built by AI,{' '}
+                <span className="italic" style={{ color: '#F6827F' }}>
+                  Perfected by Humans
+                </span>
+              </h1>
+              <h2 className="text-md max-w-2xl text-pretty text-center text-muted-foreground md:text-lg">
+                You can put any thing as sub heading for SDK wrrapper thing here
+                with some details
+              </h2>
+            </div>
           </div>
-        </div>
 
         <div className="flex items-start justify-center divide-y divide-white/10 px-8 sm:px-24">
           <div className="flex w-full max-w-[80vw] flex-col items-center justify-start md:!max-w-[392px]">
