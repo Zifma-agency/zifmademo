@@ -101,9 +101,10 @@ const HeroWithLogos = () => {
                 Perfected by Humans
               </span>
             </h1>
-            <h2 className="text-sm sm:text-base max-w-xl md:max-w-2xl text-pretty text-center text-muted-foreground md:text-lg px-2">
-              You can put any thing as sub heading for SDK wrrapper thing here
-              with some details
+            <h2 className="font-outfit text-[16px] leading-[26px] sm:text-[18px] sm:leading-[28px] md:text-[20px] md:leading-[30px] font-normal max-w-xl md:max-w-2xl text-pretty text-center px-2" style={{ color: 'rgb(176, 176, 176)' }}>
+              Done-for-you website design for businesses.
+              <br />
+              Get your site live, hosted, and optimized — for one flat price.
             </h2>
           </div>
         </div>
