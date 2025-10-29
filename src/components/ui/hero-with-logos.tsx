@@ -1,4 +1,5 @@
 import clsx from 'clsx';
+import Hero3DBackground from './hero-3d-background';
 
 const logos = [
   {
@@ -76,6 +77,7 @@ const AnimatedLogoCloud = () => {
 const HeroWithLogos = () => {
   return (
     <section className="relative min-h-[calc(100vh-50px)] overflow-hidden bg-gradient-to-b from-white via-red-100 to-red-300 dark:bg-gradient-to-b dark:from-black dark:via-red-950 dark:to-red-900">
+      <Hero3DBackground />
       <div className="absolute left-1/2 top-[calc(100%-90px)] lg:top-[calc(100%-150px)] h-[500px] w-[700px] md:h-[500px] md:w-[1100px] lg:h-[750px] lg:w-full -translate-x-1/2 rounded-[100%] border border-red-400 bg-black bg-[radial-gradient(closest-side,#000_82%,#ef4444)]"></div>
       
       <div className="absolute left-0 top-0 z-0 grid h-full w-full grid-cols-[clamp(28px,10vw,120px)_auto_clamp(28px,10vw,120px)] border-b border-border">
