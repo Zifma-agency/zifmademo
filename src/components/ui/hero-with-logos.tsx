@@ -89,39 +89,31 @@ const HeroWithLogos = () => {
       <figure className="pointer-events-none absolute bottom-[-50px] right-[7vw] z-20 hidden aspect-square w-[30vw] rounded-full bg-background opacity-50 blur-[100px] md:block" />
       
       <div className="relative z-10 flex flex-col divide-y divide-white/10 pt-[35px]">
-        <div className="flex flex-col items-center justify-end">
-          <div className="flex items-center gap-2 border border-b-0 border-white/5 px-4 py-2">
-            <p className="text-sm tracking-tight text-muted-foreground">
-              1000 peoples
-            </p>
+        <div>
+          <div className="mx-auto flex min-h-[320px] sm:min-h-[350px] md:h-[288px] max-w-[90vw] md:max-w-[80vw] shrink-0 flex-col items-center justify-center gap-3 sm:gap-4 px-4 py-8 sm:px-10 lg:px-24">
+            <h1 className="font-montserrat text-pretty text-center text-[32px] leading-[38px] sm:text-4xl sm:leading-[44px] md:text-5xl md:leading-[56px] lg:text-[67px] font-semibold lg:leading-[74px] tracking-tight md:max-w-screen-lg" style={{ color: '#020817' }}>
+              Launch Your Business Website in{' '}
+              <span className="italic" style={{ color: '#F6827F' }}>
+                48 Hours
+              </span>
+              {' '}— Built by AI,{' '}
+              <span className="italic" style={{ color: '#F6827F' }}>
+                Perfected by Humans
+              </span>
+            </h1>
+            <h2 className="text-sm sm:text-base max-w-xl md:max-w-2xl text-pretty text-center text-muted-foreground md:text-lg px-2">
+              You can put any thing as sub heading for SDK wrrapper thing here
+              with some details
+            </h2>
           </div>
         </div>
-        
-          <div>
-            <div className="mx-auto flex h-[288px] max-w-[80vw] shrink-0 flex-col items-center justify-center gap-2 px-2 py-4 sm:px-10 lg:px-24">
-              <h1 className="font-montserrat text-pretty text-center text-4xl sm:text-5xl md:text-6xl lg:text-[67px] font-semibold leading-tight lg:leading-[74px] tracking-[-1.44px] md:max-w-screen-lg md:tracking-[-2.16px]" style={{ color: '#020817' }}>
-                Launch Your Business Website in{' '}
-                <span className="italic" style={{ color: '#F6827F' }}>
-                  48 Hours
-                </span>
-                {' '}— Built by AI,{' '}
-                <span className="italic" style={{ color: '#F6827F' }}>
-                  Perfected by Humans
-                </span>
-              </h1>
-              <h2 className="text-md max-w-2xl text-pretty text-center text-muted-foreground md:text-lg">
-                You can put any thing as sub heading for SDK wrrapper thing here
-                with some details
-              </h2>
-            </div>
-          </div>
 
-        <div className="flex items-start justify-center divide-y divide-white/10 px-8 sm:px-24">
-          <div className="flex w-full max-w-[80vw] flex-col items-center justify-start md:!max-w-[392px]">
+        <div className="flex items-start justify-center divide-y divide-white/10 px-4 sm:px-8 md:px-24">
+          <div className="flex w-full max-w-[90vw] sm:max-w-[80vw] flex-col items-center justify-start md:!max-w-[392px]">
             <a href="/docs" className="w-full cursor-pointer">
               <div
                 className={clsx(
-                  '!h-14 flex-col items-center justify-center rounded-none !text-base',
+                  '!h-12 sm:!h-14 flex-col items-center justify-center rounded-none text-sm sm:!text-base',
                   'flex w-full !border-x !border-y-0 border-white/10 !bg-transparent backdrop-blur-xl transition-colors duration-150 hover:!bg-black/5 dark:hover:!bg-white/5',
                 )}
               >
@@ -131,7 +123,7 @@ const HeroWithLogos = () => {
             <a href="/docs" className="w-full cursor-pointer">
               <div
                 className={clsx(
-                  'boder-2 !h-14 flex-col items-center justify-center rounded-none border-none !text-base',
+                  'boder-2 !h-12 sm:!h-14 flex-col items-center justify-center rounded-none border-none text-sm sm:!text-base',
                   'flex w-full border-[1.2px] border-white/5 bg-gradient-to-tr from-red-800 via-red-600 to-red-400',
                 )}
               >
