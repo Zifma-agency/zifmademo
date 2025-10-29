@@ -101,10 +101,8 @@ const HeroWithLogos = () => {
                 Perfected by Humans
               </span>
             </h1>
-            <h2 className="font-outfit text-[16px] leading-[26px] sm:text-[18px] sm:leading-[28px] md:text-[20px] md:leading-[30px] font-normal max-w-xl md:max-w-2xl text-pretty text-center px-2" style={{ color: 'rgb(176, 176, 176)' }}>
-              Done-for-you website design for businesses.
-              <br />
-              Get your site live, hosted, and optimized — for one flat price.
+            <h2 className="font-outfit text-[16px] leading-[26px] sm:text-[18px] sm:leading-[28px] md:text-[20px] md:leading-[30px] font-normal max-w-[280px] sm:max-w-xl md:max-w-2xl text-pretty text-center px-2" style={{ color: 'rgb(176, 176, 176)' }}>
+              Done-for-you website design for businesses. Get your site live, hosted, and optimized — for one flat price.
             </h2>
           </div>
         </div>
