@@ -111,24 +111,14 @@ const HeroWithLogos = () => {
 
         <div className="flex items-start justify-center divide-y divide-white/10 px-4 sm:px-8 md:px-24">
           <div className="flex w-full max-w-[90vw] sm:max-w-[80vw] flex-col items-center justify-start md:!max-w-[392px]">
-            <a href="/docs" className="w-full cursor-pointer">
-              <div
-                className={clsx(
-                  '!h-12 sm:!h-14 flex-col items-center justify-center rounded-none text-sm sm:!text-base',
-                  'flex w-full !border-x !border-y-0 border-white/10 !bg-transparent backdrop-blur-xl transition-colors duration-150 hover:!bg-black/5 dark:hover:!bg-white/5',
-                )}
-              >
-                <span className="text-foreground">Learn more</span>
-              </div>
-            </a>
-            <a href="/docs" className="w-full cursor-pointer">
+            <a href="#offer" className="w-full cursor-pointer">
               <div
                 className={clsx(
                   'boder-2 !h-12 sm:!h-14 flex-col items-center justify-center rounded-none border-none text-sm sm:!text-base',
                   'flex w-full border-[1.2px] border-white/5 bg-gradient-to-tr from-red-800 via-red-600 to-red-400',
                 )}
               >
-                <span className="text-white dark:text-white">Get started</span>
+                <span className="text-white dark:text-white">✅ Get My Website Started Now</span>
               </div>
             </a>
           </div>
