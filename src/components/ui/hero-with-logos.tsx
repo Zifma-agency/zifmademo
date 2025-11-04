@@ -76,9 +76,9 @@ const AnimatedLogoCloud = () => {
 
 const HeroWithLogos = () => {
   return (
-    <section className="relative min-h-[calc(100vh-50px)] overflow-hidden bg-gradient-to-b from-white via-red-100 to-red-300 dark:bg-gradient-to-b dark:from-black dark:via-red-950 dark:to-red-900">
+    <section className="relative min-h-[calc(100vh-50px)] overflow-hidden bg-gradient-to-b from-white via-purple-100 to-purple-300 dark:bg-gradient-to-b dark:from-black dark:via-purple-950 dark:to-purple-900">
       <Hero3DBackground />
-      <div className="absolute left-1/2 top-[calc(100%-90px)] lg:top-[calc(100%-150px)] h-[500px] w-[700px] md:h-[500px] md:w-[1100px] lg:h-[750px] lg:w-full -translate-x-1/2 rounded-[100%] border border-red-400 bg-black bg-[radial-gradient(closest-side,#000_82%,#ef4444)]"></div>
+      <div className="absolute left-1/2 top-[calc(100%-90px)] lg:top-[calc(100%-150px)] h-[500px] w-[700px] md:h-[500px] md:w-[1100px] lg:h-[750px] lg:w-full -translate-x-1/2 rounded-[100%] border border-purple-400 bg-black bg-[radial-gradient(closest-side,#000_82%,#a855f7)]"></div>
       
       <div className="absolute left-0 top-0 z-0 grid h-full w-full grid-cols-[clamp(28px,10vw,120px)_auto_clamp(28px,10vw,120px)] border-b border-border">
         <div className="col-span-1 flex h-full items-center justify-center" />
@@ -86,7 +86,7 @@ const HeroWithLogos = () => {
         <div className="col-span-1 flex h-full items-center justify-center" />
       </div>
       
-      <figure className="pointer-events-none absolute -bottom-[70%] left-1/2 z-0 block aspect-square w-[520px] -translate-x-1/2 rounded-full bg-red-500/40 blur-[200px]" />
+      <figure className="pointer-events-none absolute -bottom-[70%] left-1/2 z-0 block aspect-square w-[520px] -translate-x-1/2 rounded-full bg-purple-500/40 blur-[200px]" />
       <figure className="pointer-events-none absolute left-[4vw] top-[64px] z-20 hidden aspect-square w-[32vw] rounded-full bg-background opacity-50 blur-[100px] md:block" />
       <figure className="pointer-events-none absolute bottom-[-50px] right-[7vw] z-20 hidden aspect-square w-[30vw] rounded-full bg-background opacity-50 blur-[100px] md:block" />
       
@@ -115,7 +115,7 @@ const HeroWithLogos = () => {
               <div
                 className={clsx(
                   'boder-2 !h-12 sm:!h-14 flex-col items-center justify-center rounded-none border-none text-sm sm:!text-base',
-                  'flex w-full border-[1.2px] border-white/5 bg-gradient-to-tr from-red-800 via-red-600 to-red-400',
+                  'flex w-full border-[1.2px] border-white/5 bg-gradient-to-tr from-purple-800 via-purple-600 to-purple-400',
                 )}
               >
                 <span className="text-white dark:text-white">✅ Get My Website Started Now</span>
