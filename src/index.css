@@ -17,7 +17,7 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 222.2 84% 4.9%;
 
-    --primary: 270 70% 55%;
+    --primary: 0 72% 51%;
     --primary-foreground: 0 0% 100%;
 
     --secondary: 210 40% 96.1%;
@@ -26,7 +26,7 @@ All colors MUST be HSL.
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 270 70% 55%;
+    --accent: 0 72% 51%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84.2% 60.2%;
@@ -34,14 +34,14 @@ All colors MUST be HSL.
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 270 70% 55%;
+    --ring: 0 72% 51%;
 
     --radius: 0.5rem;
 
-    /* Purple gradient colors */
-    --purple-light: 270 70% 60%;
-    --purple-medium: 270 65% 50%;
-    --purple-dark: 270 60% 40%;
+    /* Red gradient colors */
+    --red-light: 0 72% 51%;
+    --red-medium: 0 65% 45%;
+    --red-dark: 0 58% 35%;
 
     --sidebar-background: 0 0% 98%;
     --sidebar-foreground: 240 5.3% 26.1%;
@@ -50,7 +50,7 @@ All colors MUST be HSL.
     --sidebar-accent: 240 4.8% 95.9%;
     --sidebar-accent-foreground: 240 5.9% 10%;
     --sidebar-border: 220 13% 91%;
-    --sidebar-ring: 270 70% 55%;
+    --sidebar-ring: 0 72% 51%;
   }
 
   .dark {
@@ -63,7 +63,7 @@ All colors MUST be HSL.
     --popover: 0 0% 7%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 270 70% 55%;
+    --primary: 0 72% 51%;
     --primary-foreground: 0 0% 100%;
 
     --secondary: 0 10% 15%;
@@ -72,7 +72,7 @@ All colors MUST be HSL.
     --muted: 0 10% 15%;
     --muted-foreground: 215 20.2% 65.1%;
 
-    --accent: 270 70% 55%;
+    --accent: 0 72% 51%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 62.8% 30.6%;
@@ -80,21 +80,21 @@ All colors MUST be HSL.
 
     --border: 0 10% 20%;
     --input: 0 10% 20%;
-    --ring: 270 70% 55%;
+    --ring: 0 72% 51%;
 
-    /* Purple gradient colors for dark mode */
-    --purple-light: 270 70% 60%;
-    --purple-medium: 270 65% 50%;
-    --purple-dark: 270 60% 40%;
+    /* Red gradient colors for dark mode */
+    --red-light: 0 72% 51%;
+    --red-medium: 0 65% 45%;
+    --red-dark: 0 58% 35%;
 
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 270 70% 55%;
+    --sidebar-primary: 0 72% 51%;
     --sidebar-primary-foreground: 0 0% 100%;
     --sidebar-accent: 240 3.7% 15.9%;
     --sidebar-accent-foreground: 240 4.8% 95.9%;
     --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 270 70% 55%;
+    --sidebar-ring: 0 72% 51%;
   }
 }
 

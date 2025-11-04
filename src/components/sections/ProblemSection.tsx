@@ -7,7 +7,7 @@ const ProblemSection = () => {
       title: "Slow Loading Times",
       imgSrc: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop",
       imgAlt: "Clock illustration",
-      variant: "purple" as const,
+      variant: "red" as const,
     },
     {
       title: "Outdated Design",
