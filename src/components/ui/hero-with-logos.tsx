@@ -81,13 +81,13 @@ const HeroWithLogos = () => {
       <div className="relative z-10 flex flex-col divide-y divide-white/10 pt-[35px]">
         <div>
           <div className="mx-auto flex min-h-[320px] sm:min-h-[350px] md:h-[288px] max-w-[90vw] md:max-w-[80vw] shrink-0 flex-col items-center justify-center gap-3 sm:gap-4 px-4 py-8 sm:px-10 lg:px-24">
-            <h1 className="font-montserrat text-pretty text-center text-[32px] leading-[38px] sm:text-4xl sm:leading-[44px] md:text-5xl md:leading-[56px] lg:text-[67px] font-semibold lg:leading-[74px] tracking-tight md:max-w-screen-lg" style={{ color: '#020817' }}>
+            <h1 className="font-montserrat text-pretty text-center text-[32px] leading-[38px] sm:text-4xl sm:leading-[44px] md:text-5xl md:leading-[56px] lg:text-[67px] font-semibold lg:leading-[74px] tracking-tight md:max-w-screen-lg text-white">
               Launch Your Business Website in{' '}
-              <span className="italic" style={{ color: '#F6827F' }}>
+              <span className="italic text-white">
                 48 Hours
               </span>
               {' '}— Built by AI,{' '}
-              <span className="italic" style={{ color: '#F6827F' }}>
+              <span className="italic text-white">
                 Perfected by Humans
               </span>
             </h1>
