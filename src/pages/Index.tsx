@@ -7,10 +7,12 @@ import SocialProofSection from "@/components/sections/SocialProofSection";
 import CTASection from "@/components/sections/CTASection";
 import FAQSection from "@/components/sections/FAQSection";
 import Footer from "@/components/sections/Footer";
+import { ThemeToggle } from "@/components/ui/theme-toggle";
 
 const Index = () => {
   return (
     <div className="min-h-screen">
+      <ThemeToggle />
       <HeroWithLogos />
       <ProblemSection />
       <DreamOutcomeSection />

@@ -33,7 +33,7 @@ const DreamOutcomeSection = () => {
 
   const [currentFeature, setCurrentFeature] = useState(0);
   const [progress, setProgress] = useState(0);
-  const autoPlayInterval = 4000;
+  const autoPlayInterval = 2500;
 
   useEffect(() => {
     const timer = setInterval(() => {
