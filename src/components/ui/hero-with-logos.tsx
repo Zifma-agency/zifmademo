@@ -124,7 +124,7 @@ const HeroWithLogos = () => {
           </div>
         </div>
         
-        <div className="mx-auto max-w-7xl">
+        <div className="w-full">
           <AnimatedLogoCloud />
         </div>
       </div>
