@@ -75,8 +75,14 @@ const DreamOutcomeSection = () => {
             Imagine having a{" "}
             <motion.span
               className="inline-block text-primary"
-              animate={{ rotate: [0, -2, 2, -2, 0] }}
-              transition={{ duration: 2, repeat: Infinity, repeatDelay: 3 }}
+              animate={{ 
+                textShadow: [
+                  "0 0 0px hsl(var(--primary))",
+                  "0 0 20px hsl(var(--primary) / 0.5), 0 0 40px hsl(var(--primary) / 0.3)",
+                  "0 0 0px hsl(var(--primary))"
+                ]
+              }}
+              transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
             >
               clean, modern site
             </motion.span>
