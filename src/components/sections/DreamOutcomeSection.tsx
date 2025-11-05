@@ -71,7 +71,7 @@ const DreamOutcomeSection = () => {
           transition={{ duration: 0.8 }}
           className="text-center mb-12"
         >
-          <h2 className="text-3xl md:text-5xl font-bold mb-6 text-foreground leading-tight">
+          <h2 className="text-xl md:text-5xl font-bold mb-6 text-foreground leading-tight">
             Imagine having a{" "}
             <motion.span
               className="inline-block text-primary"
