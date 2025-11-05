@@ -27,7 +27,7 @@ const ProblemSection = () => {
   ];
 
   return (
-    <section className="relative overflow-hidden">
+    <section className="relative">
       {/* Background decoration */}
       <div className="absolute inset-0 opacity-5 pointer-events-none">
         <div className="absolute top-10 left-10 w-72 h-72 bg-primary rounded-full blur-3xl" />

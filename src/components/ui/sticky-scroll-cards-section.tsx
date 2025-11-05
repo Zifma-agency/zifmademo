@@ -81,7 +81,7 @@ export function StickyFeatureSection({ title, subtitle, features }: StickyFeatur
                   key={index}
                   className="grid grid-cols-1 md:grid-cols-2 items-center gap-4 md:gap-8 p-8 md:p-12 rounded-3xl mb-16 sticky"
                   style={{ 
-                    top: `${100 + index * 20}px`,
+                    top: '200px',
                     backgroundColor: feature.bgColor
                   }}
                 >
