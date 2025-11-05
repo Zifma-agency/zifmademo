@@ -52,17 +52,13 @@ const ProblemSection = () => {
         features={problems}
       />
 
-      <motion.div
+      <div
         className="text-center pb-16 px-4"
-        initial={{ opacity: 0, scale: 0.9 }}
-        whileInView={{ opacity: 1, scale: 1 }}
-        viewport={{ once: true }}
-        transition={{ delay: 0.3, duration: 0.6 }}
       >
         <p className="text-xl md:text-2xl text-primary font-semibold">
           You're losing customers before they even call.
         </p>
-      </motion.div>
+      </div>
     </section>
   );
 };
