@@ -1,6 +1,7 @@
 import HeroWithLogos from "@/components/ui/hero-with-logos";
 import ProblemSection from "@/components/sections/ProblemSection";
 import DreamOutcomeSection from "@/components/sections/DreamOutcomeSection";
+import PortfolioSection from "@/components/sections/PortfolioSection";
 import OfferSection from "@/components/sections/OfferSection";
 import GuaranteeSection from "@/components/sections/GuaranteeSection";
 import SocialProofSection from "@/components/sections/SocialProofSection";
@@ -16,6 +17,7 @@ const Index = () => {
       <HeroWithLogos />
       <ProblemSection />
       <DreamOutcomeSection />
+      <PortfolioSection />
       <OfferSection />
       <GuaranteeSection />
       <SocialProofSection />
