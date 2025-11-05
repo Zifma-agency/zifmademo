@@ -79,11 +79,14 @@ export function StickyFeatureSection({ title, subtitle, features }: StickyFeatur
               {features.map((feature, index) => (
                 <div
                   key={index}
-                  className={`${feature.bgColor} grid grid-cols-1 md:grid-cols-2 items-center gap-4 md:gap-8 p-8 md:p-12 rounded-3xl mb-16 sticky`}
-                  style={{ top: '200px' }}
+                  className="grid grid-cols-1 md:grid-cols-2 items-center gap-4 md:gap-8 p-8 md:p-12 rounded-3xl mb-16 sticky"
+                  style={{ 
+                    top: `${100 + index * 20}px`,
+                    backgroundColor: feature.bgColor
+                  }}
                 >
                   <div className="flex flex-col justify-center">
-                    <h3 className="text-2xl md:text-3xl font-bold mb-4 text-foreground">{feature.title}</h3>
+                    <h3 className="text-2xl md:text-3xl font-bold mb-4 text-white">{feature.title}</h3>
                     <p className={feature.textColor}>{feature.description}</p>
                   </div>
                   

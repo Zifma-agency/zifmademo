@@ -7,22 +7,22 @@ const ProblemSection = () => {
       title: "Slow Loading Times",
       description: "Your website takes forever to load, frustrating visitors who expect instant results. Every second of delay costs you potential customers.",
       imageUrl: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop",
-      bgColor: "bg-red-200 dark:bg-red-900",
-      textColor: "text-gray-700 dark:text-gray-200"
+      bgColor: "#57100f",
+      textColor: "text-white"
     },
     {
       title: "Outdated Design",
       description: "An old-fashioned website makes your business look unprofessional and behind the times, driving away modern customers.",
       imageUrl: "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?q=80&w=2069&auto=format&fit=crop",
-      bgColor: "bg-orange-200 dark:bg-orange-900",
-      textColor: "text-gray-700 dark:text-gray-200"
+      bgColor: "#ad211f",
+      textColor: "text-white"
     },
     {
       title: "Lost Customers",
       description: "Poor user experience and confusing navigation mean visitors leave before taking action, costing you valuable leads and sales.",
       imageUrl: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=2015&auto=format&fit=crop",
-      bgColor: "bg-yellow-200 dark:bg-yellow-900",
-      textColor: "text-gray-800 dark:text-gray-100"
+      bgColor: "#e05452",
+      textColor: "text-white"
     },
   ];
 
