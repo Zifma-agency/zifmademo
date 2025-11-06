@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { CheckCircle2, Rocket, Gem, Star } from "lucide-react";
+import { CheckCircle2, Rocket, Gem, Star, Sparkles } from "lucide-react";
 import { motion } from "framer-motion";
 import * as PricingCard from "@/components/ui/pricing-card";
 import { cn } from "@/lib/utils";
@@ -14,10 +14,10 @@ const OfferSection = () => {
   ];
 
   const proFeatures = [
-    "Premium template from Envato",
-    "Advanced SEO setup",
+    "Premium Design",
+    "Domain and hosting included for 1yr",
     "Custom forms + analytics",
-    "Delivery in 10–15 days"
+    "Delivery in 5–7 days"
   ];
 
   return (
@@ -48,6 +48,46 @@ const OfferSection = () => {
       />
 
       <div className="container max-w-6xl mx-auto relative z-10">
+        {/* Marquee Banner */}
+        <motion.div
+          initial={{ opacity: 0, y: -20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true }}
+          transition={{ duration: 0.6 }}
+          className="mb-8 md:mb-12"
+        >
+          <div className="relative overflow-hidden rounded-lg border border-primary/20 bg-gradient-to-r from-primary/10 via-primary/5 to-primary/10 backdrop-blur-sm px-3 md:px-0">
+            {/* Animated background gradient */}
+            <div className="absolute inset-0 bg-gradient-to-r from-transparent via-primary/5 to-transparent animate-shimmer" />
+            
+            {/* Marquee content */}
+            <div className="relative py-4 md:py-4 overflow-hidden">
+              <div className="flex items-center gap-3 md:gap-6">
+                {/* Sparkle icon - left */}
+                <Sparkles className="w-5 h-5 md:w-5 md:h-5 text-primary animate-pulse flex-shrink-0 z-10" />
+                
+                {/* Scrolling text container */}
+                <div className="flex-1 overflow-hidden">
+                  <div className="flex items-center gap-8 animate-marquee whitespace-nowrap">
+                    <span className="text-sm sm:text-base md:text-base font-semibold text-foreground">
+                      <span className="text-primary font-bold">AI Starter Plan</span> is on <span className="text-primary font-bold">Launch Discount</span> for this month until <span className="text-primary font-bold">Dec 7 only!</span> Hurry up! 🚀
+                    </span>
+                    <span className="text-sm sm:text-base md:text-base font-semibold text-foreground">
+                      <span className="text-primary font-bold">AI Starter Plan</span> is on <span className="text-primary font-bold">Launch Discount</span> for this month until <span className="text-primary font-bold">Dec 7 only!</span> Hurry up! 🚀
+                    </span>
+                    <span className="text-sm sm:text-base md:text-base font-semibold text-foreground">
+                      <span className="text-primary font-bold">AI Starter Plan</span> is on <span className="text-primary font-bold">Launch Discount</span> for this month until <span className="text-primary font-bold">Dec 7 only!</span> Hurry up! 🚀
+                    </span>
+                  </div>
+                </div>
+                
+                {/* Sparkle icon - right */}
+                <Sparkles className="w-5 h-5 md:w-5 md:h-5 text-primary animate-pulse flex-shrink-0 z-10" />
+              </div>
+            </div>
+          </div>
+        </motion.div>
+
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -84,16 +124,17 @@ const OfferSection = () => {
                   <PricingCard.MainPrice>₹6,000</PricingCard.MainPrice>
                   <PricingCard.Period>one-time</PricingCard.Period>
                 </PricingCard.Price>
-                <a href="https://wa.me/917729876070?text=Hi%21%20I%E2%80%99m%20interested%20in%20your%20services." target="_blank" rel="noopener noreferrer">
-                  <Button
-                    className={cn(
-                      'w-full font-semibold text-white',
-                      'bg-gradient-to-b from-primary to-primary/90 shadow-[0_10px_25px_hsl(var(--primary)/0.3)]',
-                    )}
-                  >
+                <Button
+                  asChild
+                  className={cn(
+                    'w-full font-semibold text-white pointer-events-auto relative z-50',
+                    'bg-gradient-to-b from-primary to-primary/90 shadow-[0_10px_25px_hsl(var(--primary)/0.3)]',
+                  )}
+                >
+                  <a href="https://wa.me/917729876070?text=Let%E2%80%99s%20get%20my%20website%20in%2048%20hours%21" target="_blank" rel="noopener noreferrer" className="relative z-50" style={{ pointerEvents: 'auto' }}>
                     Get Started Now
-                  </Button>
-                </a>
+                  </a>
+                </Button>
               </PricingCard.Header>
               <PricingCard.Body>
                 <PricingCard.List>
@@ -133,19 +174,20 @@ const OfferSection = () => {
                   </PricingCard.Badge>
                 </PricingCard.Plan>
                 <PricingCard.Price>
-                  <PricingCard.MainPrice>₹12k–16k</PricingCard.MainPrice>
+                  <PricingCard.MainPrice>Starting at ₹12,000</PricingCard.MainPrice>
                   <PricingCard.Period>one-time</PricingCard.Period>
                 </PricingCard.Price>
-                <a href="https://wa.me/917729876070?text=Hi%21%20I%E2%80%99m%20interested%20in%20your%20services." target="_blank" rel="noopener noreferrer">
-                  <Button
-                    className={cn(
-                      'w-full font-semibold text-white',
-                      'bg-gradient-to-b from-primary to-primary/90 shadow-[0_10px_25px_hsl(var(--primary)/0.3)]',
-                    )}
-                  >
+                <Button
+                  asChild
+                  className={cn(
+                    'w-full font-semibold text-white pointer-events-auto relative z-50',
+                    'bg-gradient-to-b from-primary to-primary/90 shadow-[0_10px_25px_hsl(var(--primary)/0.3)]',
+                  )}
+                >
+                  <a href="https://wa.me/917729876070?text=Let%E2%80%99s%20get%20my%20pro%20website%20built%21" target="_blank" rel="noopener noreferrer" className="relative z-50" style={{ pointerEvents: 'auto' }}>
                     Get Pro Version
-                  </Button>
-                </a>
+                  </a>
+                </Button>
               </PricingCard.Header>
               <PricingCard.Body>
                 <PricingCard.List>
