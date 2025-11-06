@@ -84,14 +84,16 @@ const OfferSection = () => {
                   <PricingCard.MainPrice>₹6,000</PricingCard.MainPrice>
                   <PricingCard.Period>one-time</PricingCard.Period>
                 </PricingCard.Price>
-                <Button
-                  className={cn(
-                    'w-full font-semibold text-white',
-                    'bg-gradient-to-b from-primary to-primary/90 shadow-[0_10px_25px_hsl(var(--primary)/0.3)]',
-                  )}
-                >
-                  Get Started Now
-                </Button>
+                <a href="https://wa.me/917729876070?text=Hi%21%20I%E2%80%99m%20interested%20in%20your%20services." target="_blank" rel="noopener noreferrer">
+                  <Button
+                    className={cn(
+                      'w-full font-semibold text-white',
+                      'bg-gradient-to-b from-primary to-primary/90 shadow-[0_10px_25px_hsl(var(--primary)/0.3)]',
+                    )}
+                  >
+                    Get Started Now
+                  </Button>
+                </a>
               </PricingCard.Header>
               <PricingCard.Body>
                 <PricingCard.List>
@@ -134,14 +136,16 @@ const OfferSection = () => {
                   <PricingCard.MainPrice>₹12k–16k</PricingCard.MainPrice>
                   <PricingCard.Period>one-time</PricingCard.Period>
                 </PricingCard.Price>
-                <Button
-                  className={cn(
-                    'w-full font-semibold text-white',
-                    'bg-gradient-to-b from-primary to-primary/90 shadow-[0_10px_25px_hsl(var(--primary)/0.3)]',
-                  )}
-                >
-                  Get Pro Version
-                </Button>
+                <a href="https://wa.me/917729876070?text=Hi%21%20I%E2%80%99m%20interested%20in%20your%20services." target="_blank" rel="noopener noreferrer">
+                  <Button
+                    className={cn(
+                      'w-full font-semibold text-white',
+                      'bg-gradient-to-b from-primary to-primary/90 shadow-[0_10px_25px_hsl(var(--primary)/0.3)]',
+                    )}
+                  >
+                    Get Pro Version
+                  </Button>
+                </a>
               </PricingCard.Header>
               <PricingCard.Body>
                 <PricingCard.List>

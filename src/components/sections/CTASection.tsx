@@ -80,19 +80,21 @@ const CTASection = () => {
           whileHover={{ scale: 1.05 }}
           whileTap={{ scale: 0.95 }}
         >
-          <Button 
-            size="lg" 
-            variant="secondary"
-            className="text-lg px-8 py-6 h-auto group shadow-2xl"
-          >
-            Start My Site Now
-            <motion.div
-              animate={{ x: [0, 5, 0] }}
-              transition={{ duration: 1.5, repeat: Infinity }}
+          <a href="https://wa.me/917729876070?text=Hi%21%20I%E2%80%99m%20interested%20in%20your%20services." target="_blank" rel="noopener noreferrer">
+            <Button 
+              size="lg" 
+              variant="secondary"
+              className="text-lg px-8 py-6 h-auto group shadow-2xl"
             >
-              <ArrowRight className="ml-2 w-5 h-5" />
-            </motion.div>
-          </Button>
+              Start My Site Now
+              <motion.div
+                animate={{ x: [0, 5, 0] }}
+                transition={{ duration: 1.5, repeat: Infinity }}
+              >
+                <ArrowRight className="ml-2 w-5 h-5" />
+              </motion.div>
+            </Button>
+          </a>
         </motion.div>
       </div>
     </section>
