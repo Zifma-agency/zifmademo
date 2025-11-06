@@ -11,7 +11,7 @@ const FAQSection = () => {
   const faqs = [
     {
       question: "Do I need to pay upfront?",
-      answer: "No, payment only after your site is live."
+      answer: "To get started, there’s just a small booking deposit — it covers your domain, hosting setup, and design slot.🔹 For the AI Website Package (₹6,000) — pay ₹2,000 upfront, and the rest after your site is live and approved.🔹 For the Custom WordPress Package (₹12,000–₹16,000) — pay 50% upfront to reserve your slot and template license, then the balance once the final site is delivered.This helps keep things fair — it protects both of us and locks in your build schedule so your project starts immediately.."
     },
     {
       question: "Do I need to buy hosting?",
