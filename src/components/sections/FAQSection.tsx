@@ -18,10 +18,6 @@ const FAQSection = () => {
       answer: "No, it's included in your plan."
     },
     {
-      question: "Do I need to buy domain?",
-      answer: "No, it's included in your plan."
-    },
-    {
       question: "What if I want updates later?",
       answer: "I offer simple maintenance at ₹500–₹1,000/mo."
     }
