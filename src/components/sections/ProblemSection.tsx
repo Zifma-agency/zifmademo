@@ -27,7 +27,7 @@ const ProblemSection = () => {
         <div className="absolute bottom-10 right-10 w-96 h-96 bg-primary rounded-full blur-3xl" />
       </div>
       
-      <motion.div className="text-center py-4 md:py-6" initial={{
+      <motion.div className="text-center pt-4 pb-2 md:pt-6 md:pb-4" initial={{
       opacity: 0,
       y: 20
     }} whileInView={{
@@ -43,7 +43,9 @@ const ProblemSection = () => {
         </h2>
       </motion.div>
 
-      <StickyFeatureSection title="" subtitle="" features={problems} />
+      <div className="-mt-4 md:-mt-8">
+        <StickyFeatureSection title="" subtitle="" features={problems} />
+      </div>
 
       
     </section>;
