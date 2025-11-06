@@ -91,8 +91,11 @@ const PortfolioSection = () => {
               onHoverEnd={() => setHoveredIndex(null)}
               className="group relative"
             >
-              <motion.div
-                className="relative rounded-2xl overflow-hidden bg-card border border-border shadow-lg"
+              <motion.a
+                href={item.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block relative rounded-2xl overflow-hidden bg-card border border-border shadow-lg cursor-pointer"
                 whileHover={{ y: -8 }}
                 transition={{ duration: 0.3, ease: "easeOut" }}
               >
@@ -119,17 +122,17 @@ const PortfolioSection = () => {
                   {/* Gradient overlay */}
                   <div className="absolute inset-0 bg-gradient-to-t from-background/95 via-background/40 to-transparent opacity-90" />
                   
-                  {/* Visit link button */}
-                  <motion.a
-                    href={item.url}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="absolute top-4 right-4 w-10 h-10 rounded-full bg-background/90 backdrop-blur-sm border border-border flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 hover:bg-primary hover:text-primary-foreground hover:border-primary"
-                    whileHover={{ scale: 1.1, rotate: 5 }}
-                    whileTap={{ scale: 0.95 }}
+                  {/* Visit link icon */}
+                  <motion.div
+                    className="absolute top-4 right-4 w-10 h-10 rounded-full bg-background/90 backdrop-blur-sm border border-border flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+                    animate={{
+                      scale: hoveredIndex === index ? [1, 1.1, 1] : 1,
+                      rotate: hoveredIndex === index ? [0, 5, 0] : 0,
+                    }}
+                    transition={{ duration: 0.5, repeat: hoveredIndex === index ? Infinity : 0, repeatDelay: 0.5 }}
                   >
-                    <ExternalLink className="w-4 h-4" />
-                  </motion.a>
+                    <ExternalLink className="w-4 h-4 text-primary" />
+                  </motion.div>
 
                   {/* Tags */}
                   <div className="absolute bottom-4 left-4 flex flex-wrap gap-2">
@@ -185,7 +188,7 @@ const PortfolioSection = () => {
                   }}
                   transition={{ duration: 0.3 }}
                 />
-              </motion.div>
+              </motion.a>
             </motion.div>
           ))}
         </div>

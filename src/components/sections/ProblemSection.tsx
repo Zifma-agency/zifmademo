@@ -27,7 +27,7 @@ const ProblemSection = () => {
         <div className="absolute bottom-10 right-10 w-96 h-96 bg-primary rounded-full blur-3xl" />
       </div>
       
-      <motion.div className="text-center py-8" initial={{
+      <motion.div className="text-center py-4 md:py-6" initial={{
       opacity: 0,
       y: 20
     }} whileInView={{
