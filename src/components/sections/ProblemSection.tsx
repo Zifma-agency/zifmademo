@@ -20,12 +20,22 @@ const ProblemSection = () => {
     bgColor: "#e05452",
     textColor: "text-white"
   }];
-  return <section className="relative">
-      {/* Background decoration */}
-      <div className="absolute inset-0 opacity-5 pointer-events-none">
-        <div className="absolute top-10 left-10 w-72 h-72 bg-primary rounded-full blur-3xl" />
-        <div className="absolute bottom-10 right-10 w-96 h-96 bg-primary rounded-full blur-3xl" />
-      </div>
+  return <section className="relative overflow-hidden">
+      {/* Animated gradient background */}
+      <motion.div
+        className="absolute inset-0 opacity-5 pointer-events-none"
+        animate={{
+          background: [
+            "radial-gradient(circle at 20% 50%, hsl(var(--primary)) 0%, transparent 50%)",
+            "radial-gradient(circle at 80% 50%, hsl(var(--primary)) 0%, transparent 50%)",
+            "radial-gradient(circle at 20% 50%, hsl(var(--primary)) 0%, transparent 50%)",
+          ],
+        }}
+        transition={{ duration: 10, repeat: Infinity, ease: "linear" }}
+      />
+
+      {/* Decorative grid pattern */}
+      <div className="absolute inset-0 bg-[linear-gradient(to_right,hsl(var(--border))_1px,transparent_1px),linear-gradient(to_bottom,hsl(var(--border))_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_80%_50%_at_50%_0%,#000_70%,transparent_110%)] opacity-20 pointer-events-none" />
       
       <motion.div className="text-center py-8" initial={{
       opacity: 0,
