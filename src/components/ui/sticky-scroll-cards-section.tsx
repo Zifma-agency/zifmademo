@@ -79,10 +79,11 @@ export function StickyFeatureSection({ title, subtitle, features }: StickyFeatur
               {features.map((feature, index) => (
                 <div
                   key={index}
-                  className="grid grid-cols-1 md:grid-cols-2 items-center gap-4 md:gap-8 p-8 md:p-12 rounded-3xl mb-16 sticky backdrop-blur-sm border border-white/10"
+                  className="grid grid-cols-1 md:grid-cols-2 items-center gap-4 md:gap-8 p-8 md:p-12 rounded-3xl mb-16 sticky backdrop-blur-lg border border-white/20 shadow-2xl"
                   style={{ 
                     top: '200px',
-                    backgroundColor: feature.bgColor + 'E6' // Adding transparency (90% opacity)
+                    backgroundColor: feature.bgColor + '40', // 25% opacity for glassmorphism
+                    boxShadow: '0 8px 32px 0 rgba(0, 0, 0, 0.37)'
                   }}
                 >
                   <div className="flex flex-col justify-center">

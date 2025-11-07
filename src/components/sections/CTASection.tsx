@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 const CTASection = () => {
   const features = [
     { icon: Clock, text: "48-hour delivery" },
-    { icon: CheckCircle, text: "No upfront payment" },
+    { icon: CheckCircle, text: "100% satisfaction guaranteed" },
     { icon: Rocket, text: "Launch ready" }
   ];
 
