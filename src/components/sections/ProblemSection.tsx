@@ -20,7 +20,7 @@ const ProblemSection = () => {
     bgColor: "#e05452",
     textColor: "text-white"
   }];
-  return <section className="relative overflow-hidden">
+  return <section className="relative">
       {/* Animated gradient background */}
       <motion.div
         className="absolute inset-0 opacity-5 pointer-events-none"
