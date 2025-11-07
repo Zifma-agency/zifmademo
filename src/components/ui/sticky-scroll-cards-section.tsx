@@ -69,7 +69,7 @@ const AnimatedHeader = ({ title, subtitle }: { title: string; subtitle: string }
 
 export function StickyFeatureSection({ title, subtitle, features }: StickyFeatureSectionProps) {
   return (
-    <div className="bg-muted font-sans">
+    <div className="bg-transparent font-sans">
       <div className="px-[5%]">
         <div className="max-w-7xl mx-auto">
           <section className="py-16 md:py-24 flex flex-col items-center">
