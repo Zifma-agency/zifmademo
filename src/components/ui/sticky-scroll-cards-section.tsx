@@ -82,7 +82,7 @@ export function StickyFeatureSection({ title, subtitle, features }: StickyFeatur
                   className="grid grid-cols-1 md:grid-cols-2 items-center gap-4 md:gap-8 p-8 md:p-12 rounded-3xl mb-16 sticky backdrop-blur-sm border border-white/10"
                   style={{ 
                     top: '200px',
-                    backgroundColor: 'transparent'
+                    backgroundColor: feature.bgColor + 'E6' // Adding transparency (90% opacity)
                   }}
                 >
                   <div className="flex flex-col justify-center">
