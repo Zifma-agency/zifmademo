@@ -80,10 +80,11 @@ const HeroWithLogos = () => {
       <figure className="pointer-events-none absolute bottom-[-50px] right-[7vw] z-20 hidden aspect-square w-[30vw] rounded-full bg-background opacity-50 blur-[100px] md:block" />
       
       <img 
-        src={zilaxisLogo} 
-        alt="Zilaxis Media" 
-        className="absolute top-6 left-6 z-20 h-12 md:h-16 w-auto"
-      />
+  src={zilaxisLogo} 
+  alt="Zilaxis Media" 
+  className="absolute top-6 left-6 z-20 h-24 md:h-32 w-auto"
+/>
+
       
       <div className="relative z-10 flex flex-col divide-y divide-white/10 pt-[35px]">
         <div>
