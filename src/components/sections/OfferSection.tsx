@@ -1,16 +1,17 @@
 import { Button } from "@/components/ui/button";
-import { CheckCircle2, Rocket, Gem, Star, Sparkles } from "lucide-react";
+import { CheckCircle2, Rocket, Gem, Star, Sparkles, X } from "lucide-react";
 import { motion } from "framer-motion";
 import * as PricingCard from "@/components/ui/pricing-card";
 import { cn } from "@/lib/utils";
 
 const OfferSection = () => {
   const aiFeatures = [
-    "Live site in 48 hrs",
-    "1-year hosting included",
-    "Domain setup done for you",
-    "Basic SEO + contact form",
-    "Pay only after site is live"
+    { text: "Live site in 48 hrs", included: true },
+    { text: "1-year hosting included", included: true },
+    { text: "Domain setup done for you", included: true },
+    { text: "Basic SEO + contact form", included: true },
+    { text: "Pay only after site is live", included: true },
+    { text: "Not for ecommerce", included: false }
   ];
 
   const proFeatures = [
@@ -120,10 +121,10 @@ const OfferSection = () => {
                   </PricingCard.PlanName>
                   <PricingCard.Badge>Fast Start</PricingCard.Badge>
                 </PricingCard.Plan>
-                <PricingCard.Price>
-                  <PricingCard.MainPrice>₹6,000</PricingCard.MainPrice>
-                  <PricingCard.Period>one-time</PricingCard.Period>
-                </PricingCard.Price>
+                <div className="mb-3">
+                  <div className="text-3xl font-extrabold tracking-tight mb-1">Get Quote</div>
+                  <p className="text-xs text-muted-foreground italic">costs less than your netflix subscription</p>
+                </div>
                 <Button
                   asChild
                   className={cn(
@@ -138,15 +139,22 @@ const OfferSection = () => {
               </PricingCard.Header>
               <PricingCard.Body>
                 <PricingCard.List>
-                  {aiFeatures.map((item, idx) => (
+                  {aiFeatures.map((feature, idx) => (
                     <PricingCard.ListItem key={idx}>
                       <span className="mt-0.5">
-                        <CheckCircle2
-                          className="h-4 w-4 text-green-500"
-                          aria-hidden="true"
-                        />
+                        {feature.included ? (
+                          <CheckCircle2
+                            className="h-4 w-4 text-green-500"
+                            aria-hidden="true"
+                          />
+                        ) : (
+                          <X
+                            className="h-4 w-4 text-red-500"
+                            aria-hidden="true"
+                          />
+                        )}
                       </span>
-                      <span>{item}</span>
+                      <span className={!feature.included ? "text-muted-foreground" : ""}>{feature.text}</span>
                     </PricingCard.ListItem>
                   ))}
                 </PricingCard.List>
