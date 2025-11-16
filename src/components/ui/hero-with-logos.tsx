@@ -1,5 +1,6 @@
 import clsx from 'clsx';
 import Hero3DBackground from './hero-3d-background';
+import zilaxisLogo from '@/assets/zilaxis-logo.png';
 
 const logos = [
   {
@@ -77,6 +78,12 @@ const HeroWithLogos = () => {
       <figure className="pointer-events-none absolute -bottom-[70%] left-1/2 z-0 block aspect-square w-[520px] -translate-x-1/2 rounded-full bg-red-500/40 blur-[200px]" />
       <figure className="pointer-events-none absolute left-[4vw] top-[64px] z-20 hidden aspect-square w-[32vw] rounded-full bg-background opacity-50 blur-[100px] md:block" />
       <figure className="pointer-events-none absolute bottom-[-50px] right-[7vw] z-20 hidden aspect-square w-[30vw] rounded-full bg-background opacity-50 blur-[100px] md:block" />
+      
+      <img 
+        src={zilaxisLogo} 
+        alt="Zilaxis Media" 
+        className="absolute top-6 left-6 z-20 h-12 md:h-16 w-auto"
+      />
       
       <div className="relative z-10 flex flex-col divide-y divide-white/10 pt-[35px]">
         <div>
