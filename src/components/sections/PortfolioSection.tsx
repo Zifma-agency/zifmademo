@@ -26,7 +26,7 @@ const PortfolioSection = () => {
     },
     {
       title: "Hope Street",
-      url: "https://hopestreet.netlify.app/",
+      url: "https://www.hopestreetinternationalmissions.org/",
       description: "Compassionate healthcare services for all",
       image: portfolioHopestreet,
       tags: ["Healthcare", "Non-Profit", "Medical"],
