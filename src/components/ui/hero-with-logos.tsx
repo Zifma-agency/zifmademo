@@ -1,6 +1,6 @@
 import clsx from 'clsx';
 import Hero3DBackground from './hero-3d-background';
-import zilaxisLogo from '@/assets/zilaxis-logo.png';
+import zilaxisLogo from '@/assets/Zilaxis.png';
 
 const logos = [
   {
