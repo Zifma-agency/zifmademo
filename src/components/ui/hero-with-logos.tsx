@@ -82,7 +82,7 @@ const HeroWithLogos = () => {
       <img 
   src={zilaxisLogo} 
   alt="Zilaxis Media" 
-className="absolute -top-10 left-6 z-20 h-32 md:h-44 w-auto"
+className="absolute -top-15 left-6 z-20 h-32 md:h-44 w-auto"
 
 />
 
