@@ -125,8 +125,8 @@ const OfferSection = () => {
             Professional websites that drive results
           </p>
         </motion.div>
-        
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 justify-center">
+  <div className="container max-w-[1350px] mx-auto relative z-10 px-4">
+      <div className="flex flex-wrap justify-center gap-6 md:gap-8">
 
           {/* Starter Clinic Website */}
           <motion.div
@@ -278,6 +278,7 @@ const OfferSection = () => {
               </PricingCard.Body>
             </PricingCard.Card>
           </motion.div>
+        </div>
         </div>
       </div>
     </section>
