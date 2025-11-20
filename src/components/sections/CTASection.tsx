@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Rocket, Clock, CheckCircle } from "lucide-react";
+import { ArrowRight, Rocket, lamp-desk, CheckCircle } from "lucide-react";
 import { motion } from "framer-motion";
 
 const CTASection = () => {
