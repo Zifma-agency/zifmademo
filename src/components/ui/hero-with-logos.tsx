@@ -65,7 +65,7 @@ const AnimatedLogoCloud = () => {
 
 const HeroWithLogos = () => {
   return (
-    <section className="relative min-h-[calc(100vh-50px)] overflow-hidden bg-gradient-to-b from-white via-red-100 to-red-300 dark:bg-gradient-to-b dark:from-black dark:via-red-950 dark:to-red-900">
+    <section className="relative min-h-screen overflow-hidden bg-gradient-to-b from-white via-red-100 to-red-300 dark:bg-gradient-to-b dark:from-black dark:via-red-950 dark:to-red-900">
       <Hero3DBackground />
       <div className="absolute left-1/2 top-[calc(100%-90px)] lg:top-[calc(100%-150px)] h-[500px] w-[700px] md:h-[500px] md:w-[1100px] lg:h-[750px] lg:w-full -translate-x-1/2 rounded-[100%] border border-red-400 bg-black bg-[radial-gradient(closest-side,#000_82%,#ef4444)]"></div>
       
@@ -80,38 +80,35 @@ const HeroWithLogos = () => {
       <figure className="pointer-events-none absolute bottom-[-50px] right-[7vw] z-20 hidden aspect-square w-[30vw] rounded-full bg-background opacity-50 blur-[100px] md:block" />
       
       <img 
-  src={zilaxisLogo} 
-  alt="Zilaxis Media" 
-className="absolute -top-6 left-6 z-20 h-32 md:h-44 w-auto"
-
-/>
+        src={zilaxisLogo} 
+        alt="Zilaxis Media" 
+        className="absolute -top-6 left-6 z-20 h-32 md:h-44 w-auto"
+      />
 
       
-      <div className="relative z-10 flex flex-col divide-y divide-white/10 pt-[35px]">
-        <div>
-          <div className="mx-auto flex min-h-[320px] sm:min-h-[350px] md:h-[288px] max-w-[90vw] md:max-w-[80vw] shrink-0 flex-col items-center justify-center gap-3 sm:gap-4 px-4 py-8 sm:px-10 lg:px-24">
-            <h1 className="font-montserrat text-center text-white font-semibold tracking-tight text-[32px] leading-tight sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight lg:text-[67px] lg:leading-tight max-w-[900px]">
-              <span className="block">Get a Modern, High-Converting</span>
-              <span className="block">Website for your Clinic built in Just</span>
-              <span className="block italic text-white">7 Days</span>
-            </h1>
-            <h2 className="font-outfit text-[16px] leading-[26px] sm:text-[18px] sm:leading-[28px] md:text-[20px] md:leading-[30px] font-normal max-w-[280px] sm:max-w-xl md:max-w-2xl text-pretty text-center px-2" style={{ color: 'rgb(176, 176, 176)' }}>
-              A Website That Helps Patients Trust You Before They Even Walk In
-            </h2>
-          </div>
-        </div>
+      <div className="relative z-10 flex flex-col pt-16 sm:pt-20 md:pt-24 lg:pt-32">
+        <div className="flex flex-col items-center justify-center gap-6 sm:gap-8 md:gap-10 px-4 sm:px-10 lg:px-24 pb-8 sm:pb-10 md:pb-12">
+          <h1 className="font-montserrat text-center text-white font-semibold tracking-tight text-3xl leading-snug sm:text-4xl sm:leading-snug md:text-5xl md:leading-snug lg:text-6xl lg:leading-tight max-w-4xl">
+            <span className="block">Get a Modern,</span>
+            <span className="block">High-Converting</span>
+            <span className="block">Website for your Clinic</span>
+            <span className="block">built in Just</span>
+            <span className="block italic text-transparent bg-clip-text bg-gradient-to-r from-red-300 to-red-100">7 Days</span>
+          </h1>
+          
+          <h2 className="font-outfit text-base leading-relaxed sm:text-lg sm:leading-relaxed md:text-xl md:leading-relaxed font-normal max-w-2xl text-pretty text-center" style={{ color: 'rgb(176, 176, 176)' }}>
+            A Website That Helps Patients Trust You Before They Even Walk In
+          </h2>
 
-        <div className="flex items-start justify-center divide-y divide-white/10 px-4 sm:px-8 md:px-24">
-          <div className="flex w-full max-w-[90vw] sm:max-w-[80vw] flex-col items-center justify-start md:!max-w-[392px]">
+          <div className="flex w-full max-w-sm justify-center">
             <a href="#offer" className="w-full cursor-pointer">
-
               <div
                 className={clsx(
-                  'boder-2 !h-12 sm:!h-14 flex-col items-center justify-center rounded-none border-none text-sm sm:!text-base',
-                  'flex w-full border-[1.2px] border-white/5 bg-gradient-to-tr from-red-800 via-red-600 to-red-400',
+                  'h-12 sm:h-14 flex items-center justify-center rounded-lg border-none text-sm sm:text-base font-medium',
+                  'w-full border-[1.2px] border-white/5 bg-gradient-to-tr from-red-800 via-red-600 to-red-400 hover:shadow-lg hover:shadow-red-600/50 transition-shadow',
                 )}
               >
-                <span className="text-white dark:text-white">✅ Get My Website Started Now</span>
+                <span className="text-white">✅ Get My Website Started Now</span>
               </div>
             </a>
           </div>
