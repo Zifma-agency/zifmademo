@@ -11,6 +11,13 @@ const PortfolioSection = () => {
 
   const portfolioItems = [
     {
+      title: "Hope Street",
+      url: "https://www.hopestreetinternationalmissions.org/",
+      description: "Compassionate healthcare services for all",
+      image: portfolioHopestreet,
+      tags: ["Healthcare", "Non-Profit", "Medical"],
+    },
+    {
       title: "CliSwift",
       url: "https://www.cliswift.com",
       description: "Expert IT consulting and technology solutions platform",
@@ -23,13 +30,6 @@ const PortfolioSection = () => {
       description: "Creative agency for brand strategy and social storytelling",
       image: portfolioPixelpop,
       tags: ["Creative", "Branding", "Media"],
-    },
-    {
-      title: "Hope Street",
-      url: "https://www.hopestreetinternationalmissions.org/",
-      description: "Compassionate healthcare services for all",
-      image: portfolioHopestreet,
-      tags: ["Healthcare", "Non-Profit", "Medical"],
     },
   ];
 
