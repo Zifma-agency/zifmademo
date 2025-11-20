@@ -5,14 +5,14 @@ const GuaranteeSection = () => {
   const guarantees = [
     {
       icon: Zap,
-      title: "48-Hour Promise",
-      description: "If your website isn't live within 48 hours, you don't pay.",
+      title: "7-Day Promise",
+      description: "Your website will be delivered within 7–12 days as per your package guaranteed",
       color: "text-primary"
     },
     {
       icon: Heart,
-      title: "Love It Guarantee",
-      description: "If you don't love it, I'll fix it free.",
+      title: "No Hidden Costs",
+      description: "Clear pricing. No hidden charges. Everything agreed upfront",
       color: "text-primary"
     }
   ];
