@@ -33,7 +33,7 @@ const HowItWorksSection = () => {
     },
     {
       icon: Rocket,
-      time: "Day 6",
+      time: "Day 6-7",
       title: "Your Review",
       description: "Final checks, optimization,quick revisions and your site goes live. Welcome to the internet.",
       color: "from-primary/20 to-primary/5"
