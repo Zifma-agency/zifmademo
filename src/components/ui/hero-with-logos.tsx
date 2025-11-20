@@ -90,31 +90,25 @@ className="absolute -top-6 left-6 z-20 h-32 md:h-44 w-auto"
       <div className="relative z-10 flex flex-col divide-y divide-white/10 pt-[35px]">
         <div>
           <div className="mx-auto flex min-h-[320px] sm:min-h-[350px] md:h-[288px] max-w-[90vw] md:max-w-[80vw] shrink-0 flex-col items-center justify-center gap-3 sm:gap-4 px-4 py-8 sm:px-10 lg:px-24">
-            <h1  className="
-    font-montserrat
-    text-center
-    text-white
-    font-semibold
-    tracking-tight
-    text-[32px] leading-tight
-    sm:text-4xl sm:leading-tight
-    md:text-5xl md:leading-tight
-    lg:text-[67px] lg:leading-tight
-    max-w-[900px]
-  ">
-  <span className="block">Get a Modern, High-Converting</span>
-  <span className="block">Website Built in Just</span>
-  <span className="block italic text-white">7 Days</span>
+            <h1 className="font-montserrat text-pretty text-center text-[32px] leading-[38px] sm:text-4xl sm:leading-[44px] md:text-5xl md:leading-[56px] lg:text-[67px] font-semibold lg:leading-[74px] tracking-tight md:max-w-screen-lg text-white">
+              Launch Your Business Website in{' '}
+              <span className="italic text-white">
+                48 Hours
+              </span>
+              {' '}— Built by AI,{' '}
+              <span className="italic text-white">
+                Perfected by Humans
+              </span>
             </h1>
             <h2 className="font-outfit text-[16px] leading-[26px] sm:text-[18px] sm:leading-[28px] md:text-[20px] md:leading-[30px] font-normal max-w-[280px] sm:max-w-xl md:max-w-2xl text-pretty text-center px-2" style={{ color: 'rgb(176, 176, 176)' }}>
-              Professional, fast, SEO-ready websites that help your business look credible and attract more customers without agency pricing.
+              Done-for-you website design for businesses. Get your site live, hosted, and optimized — for one flat price.
             </h2>
           </div>
         </div>
 
         <div className="flex items-start justify-center divide-y divide-white/10 px-4 sm:px-8 md:px-24">
           <div className="flex w-full max-w-[90vw] sm:max-w-[80vw] flex-col items-center justify-start md:!max-w-[392px]">
-           <a href="#offer" className="w-full cursor-pointer">
+            <a href="https://wa.me/917729876070?text=Hi%21%20I%E2%80%99m%20interested%20in%20your%20services." target="_blank" rel="noopener noreferrer" className="w-full cursor-pointer">
               <div
                 className={clsx(
                   'boder-2 !h-12 sm:!h-14 flex-col items-center justify-center rounded-none border-none text-sm sm:!text-base',
