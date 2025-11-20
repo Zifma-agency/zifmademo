@@ -91,17 +91,13 @@ className="absolute -top-6 left-6 z-20 h-32 md:h-44 w-auto"
         <div>
           <div className="mx-auto flex min-h-[320px] sm:min-h-[350px] md:h-[288px] max-w-[90vw] md:max-w-[80vw] shrink-0 flex-col items-center justify-center gap-3 sm:gap-4 px-4 py-8 sm:px-10 lg:px-24">
             <h1 className="font-montserrat text-pretty text-center text-[32px] leading-[38px] sm:text-4xl sm:leading-[44px] md:text-5xl md:leading-[56px] lg:text-[67px] font-semibold lg:leading-[74px] tracking-tight md:max-w-screen-lg text-white">
-              Get a Modern, High-Converting Website Built in Just 7 Days
+              Get a Modern, High-Converting Website Built in Just 
               <span className="italic text-white">
-                48 Hours
-              </span>
-              {' '}— Built by AI,{' '}
-              <span className="italic text-white">
-                Perfected by Humans
+                7 Days
               </span>
             </h1>
             <h2 className="font-outfit text-[16px] leading-[26px] sm:text-[18px] sm:leading-[28px] md:text-[20px] md:leading-[30px] font-normal max-w-[280px] sm:max-w-xl md:max-w-2xl text-pretty text-center px-2" style={{ color: 'rgb(176, 176, 176)' }}>
-              Done-for-you website design for businesses. Get your site live, hosted, and optimized — for one flat price.
+              Professional, fast, SEO-ready websites that help your business look credible and attract more customers without agency pricing.
             </h2>
           </div>
         </div>
