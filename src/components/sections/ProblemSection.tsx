@@ -49,7 +49,7 @@ const ProblemSection = () => {
       duration: 0.6
     }}>
         <h2 className="text-3xl md:text-5xl font-bold px-4 text-foreground leading-tight">
-          Your business might be amazing. But if your website has
+          Your Clinic might be amazing. But if you dont have a website or 
         </h2>
       </motion.div>
 
