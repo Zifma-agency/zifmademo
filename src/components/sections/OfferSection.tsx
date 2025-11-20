@@ -5,20 +5,42 @@ import * as PricingCard from "@/components/ui/pricing-card";
 import { cn } from "@/lib/utils";
 
 const OfferSection = () => {
-  const aiFeatures = [
-    { text: "Live site in 48 hrs", included: true },
-    { text: "1-year hosting included", included: true },
-    { text: "Domain setup done for you", included: true },
-    { text: "Basic SEO + contact form", included: true },
-    { text: "Pay only after site is live", included: true },
-    { text: "Not for ecommerce", included: false }
+  const starterFeatures = [
+    "Up to 4 clinic-focused pages (Home, About, Services, Contact)",
+    "Mobile-responsive design",
+    "Basic on-page SEO",
+    "WhatsApp & Contact Form integration",
+    "Google Analytics setup",
+    "SSL setup + basic security",
+    "Basic speed optimization",
+    "2 revisions",
+    "Delivery in 5–7 days",
+    "14 days of support after launch"
   ];
 
-  const proFeatures = [
-    "Premium Design",
-    "Domain and hosting included for 1yr",
-    "Custom forms + analytics",
-    "Delivery in 5–7 days"
+  const growthFeatures = [
+    "Up to 6 pages (Add Testimonials / Gallery / FAQ / Service Details)",
+    "Conversion-focused layout",
+    "Advanced on-page SEO",
+    "Appointment/booking integration (optional)",
+    "Advanced speed optimization",
+    "3 revisions",
+    "Delivery in 5–9 days",
+    "1 month of maintenance",
+    "Everything in Starter"
+  ];
+
+  const premiumFeatures = [
+    "Up to 10 pages (All services + detailed sub-pages + blog setup)",
+    "Custom brand-focused layout for clinics",
+    "Extended SEO structure + basic schema setup",
+    "Lead-capture setup (forms, CTAs, landing sections)",
+    "Google Search Console integration",
+    "Speed + performance fine-tuning",
+    "4 revisions",
+    "Delivery in 7–12 days",
+    "45 days of priority support & maintenance",
+    "Everything in Growth"
   ];
 
   return (
@@ -105,56 +127,49 @@ const OfferSection = () => {
         </motion.div>
         
         <div className="flex flex-wrap justify-center gap-6 md:gap-8">
-          {/* AI Website Starter */}
+          {/* Starter Clinic Website */}
           <motion.div
-            initial={{ opacity: 0, x: -30 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
+            transition={{ duration: 0.6, delay: 0.1 }}
           >
             <PricingCard.Card className="max-w-sm">
               <PricingCard.Header>
                 <PricingCard.Plan>
                   <PricingCard.PlanName>
                     <Rocket aria-hidden="true" />
-                    <span>AI Website Starter</span>
+                    <span>Starter Clinic Website</span>
                   </PricingCard.PlanName>
-                  <PricingCard.Badge>Fast Start</PricingCard.Badge>
+                  <PricingCard.Badge className="bg-blue-500/10 text-blue-400 border-blue-400/30">Starter</PricingCard.Badge>
                 </PricingCard.Plan>
-                <div className="mb-3">
-                  <div className="text-3xl font-extrabold tracking-tight mb-1">Get Quote</div>
-                  <p className="text-xs text-muted-foreground italic">costs less than your netflix subscription</p>
-                </div>
+                <PricingCard.Price>
+                  <PricingCard.MainPrice>$600</PricingCard.MainPrice>
+                </PricingCard.Price>
+                <PricingCard.Description className="mb-4">
+                  Perfect for new or small clinics that need a simple, modern, trust-building online presence.
+                </PricingCard.Description>
                 <Button
                   asChild
                   className={cn(
                     'w-full font-semibold text-white pointer-events-auto relative z-50',
-                    'bg-gradient-to-b from-primary to-primary/90 shadow-[0_10px_25px_hsl(var(--primary)/0.3)]',
+                    'bg-gradient-to-b from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 shadow-[0_10px_25px_rgba(59,130,246,0.3)]',
                   )}
                 >
-                  <a href="https://wa.me/917729876070?text=Let%E2%80%99s%20get%20my%20website%20in%2048%20hours%21" target="_blank" rel="noopener noreferrer" className="relative z-50" style={{ pointerEvents: 'auto' }}>
-                    Get Started Now
+                  <a href="https://wa.me/917729876070?text=I%27m%20interested%20in%20the%20Starter%20Clinic%20Website%20plan" target="_blank" rel="noopener noreferrer" className="relative z-50" style={{ pointerEvents: 'auto' }}>
+                    Get Started
                   </a>
                 </Button>
               </PricingCard.Header>
               <PricingCard.Body>
                 <PricingCard.List>
-                  {aiFeatures.map((feature, idx) => (
+                  {starterFeatures.map((feature, idx) => (
                     <PricingCard.ListItem key={idx}>
-                      <span className="mt-0.5">
-                        {feature.included ? (
-                          <CheckCircle2
-                            className="h-4 w-4 text-green-500"
-                            aria-hidden="true"
-                          />
-                        ) : (
-                          <X
-                            className="h-4 w-4 text-red-500"
-                            aria-hidden="true"
-                          />
-                        )}
-                      </span>
-                      <span className={!feature.included ? "text-muted-foreground" : ""}>{feature.text}</span>
+                      <CheckCircle2
+                        className="h-4 w-4 shrink-0 text-green-500"
+                        aria-hidden="true"
+                      />
+                      <span>{feature}</span>
                     </PricingCard.ListItem>
                   ))}
                 </PricingCard.List>
@@ -162,29 +177,28 @@ const OfferSection = () => {
             </PricingCard.Card>
           </motion.div>
 
-          {/* Pro Custom WordPress */}
+          {/* Growth Clinic Website */}
           <motion.div
-            initial={{ opacity: 0, x: 30 }}
-            whileInView={{ opacity: 1, x: 0 }}
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.6 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
           >
-            <PricingCard.Card className="max-w-sm border-primary/50">
+            <PricingCard.Card className="max-w-sm border-primary/50 shadow-xl shadow-primary/20">
               <PricingCard.Header>
                 <PricingCard.Plan>
                   <PricingCard.PlanName>
-                    <Gem aria-hidden="true" />
-                    <span>Pro WordPress</span>
+                    <Star aria-hidden="true" />
+                    <span>Growth Clinic Website</span>
                   </PricingCard.PlanName>
-                  <PricingCard.Badge className="bg-primary/20 border-primary text-primary">
-                    <Star className="w-3 h-3 inline mr-1" />
-                    Popular
-                  </PricingCard.Badge>
+                  <PricingCard.Badge className="bg-green-500/10 text-green-400 border-green-400/30">Popular</PricingCard.Badge>
                 </PricingCard.Plan>
                 <PricingCard.Price>
-                  <PricingCard.MainPrice>Starting at ₹12,000</PricingCard.MainPrice>
-                  <PricingCard.Period>one-time</PricingCard.Period>
+                  <PricingCard.MainPrice>$850</PricingCard.MainPrice>
                 </PricingCard.Price>
+                <PricingCard.Description className="mb-4">
+                  Ideal for clinics wanting more credibility, stronger SEO, and better patient conversions.
+                </PricingCard.Description>
                 <Button
                   asChild
                   className={cn(
@@ -192,22 +206,71 @@ const OfferSection = () => {
                     'bg-gradient-to-b from-primary to-primary/90 shadow-[0_10px_25px_hsl(var(--primary)/0.3)]',
                   )}
                 >
-                  <a href="https://wa.me/917729876070?text=Let%E2%80%99s%20get%20my%20pro%20website%20built%21" target="_blank" rel="noopener noreferrer" className="relative z-50" style={{ pointerEvents: 'auto' }}>
-                    Get Pro Version
+                  <a href="https://wa.me/917729876070?text=I%27m%20interested%20in%20the%20Growth%20Clinic%20Website%20plan" target="_blank" rel="noopener noreferrer" className="relative z-50" style={{ pointerEvents: 'auto' }}>
+                    Get Started
                   </a>
                 </Button>
               </PricingCard.Header>
               <PricingCard.Body>
                 <PricingCard.List>
-                  {proFeatures.map((item, idx) => (
+                  {growthFeatures.map((feature, idx) => (
                     <PricingCard.ListItem key={idx}>
-                      <span className="mt-0.5">
-                        <CheckCircle2
-                          className="h-4 w-4 text-green-500"
-                          aria-hidden="true"
-                        />
-                      </span>
-                      <span>{item}</span>
+                      <CheckCircle2
+                        className="h-4 w-4 shrink-0 text-green-500"
+                        aria-hidden="true"
+                      />
+                      <span>{feature}</span>
+                    </PricingCard.ListItem>
+                  ))}
+                </PricingCard.List>
+              </PricingCard.Body>
+            </PricingCard.Card>
+          </motion.div>
+
+          {/* Premium Clinic Website */}
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.6, delay: 0.3 }}
+          >
+            <PricingCard.Card className="max-w-sm border-amber-500/50">
+              <PricingCard.Header>
+                <PricingCard.Plan>
+                  <PricingCard.PlanName>
+                    <Gem aria-hidden="true" />
+                    <span>Premium Clinic Website</span>
+                  </PricingCard.PlanName>
+                  <PricingCard.Badge className="bg-amber-500/10 text-amber-400 border-amber-400/30">Premium</PricingCard.Badge>
+                </PricingCard.Plan>
+                <PricingCard.Price>
+                  <PricingCard.MainPrice>$1,200</PricingCard.MainPrice>
+                </PricingCard.Price>
+                <PricingCard.Description className="mb-4">
+                  Best for established clinics with multiple services, higher traffic, and branding needs.
+                </PricingCard.Description>
+                <Button
+                  asChild
+                  variant="outline"
+                  className={cn(
+                    'w-full font-semibold relative z-50 pointer-events-auto',
+                    'border-amber-400/30 text-amber-400 hover:bg-amber-500/10',
+                  )}
+                >
+                  <a href="https://wa.me/917729876070?text=I%27m%20interested%20in%20the%20Premium%20Clinic%20Website%20plan" target="_blank" rel="noopener noreferrer" className="relative z-50" style={{ pointerEvents: 'auto' }}>
+                    Get Started
+                  </a>
+                </Button>
+              </PricingCard.Header>
+              <PricingCard.Body>
+                <PricingCard.List>
+                  {premiumFeatures.map((feature, idx) => (
+                    <PricingCard.ListItem key={idx}>
+                      <CheckCircle2
+                        className="h-4 w-4 shrink-0 text-green-500"
+                        aria-hidden="true"
+                      />
+                      <span>{feature}</span>
                     </PricingCard.ListItem>
                   ))}
                 </PricingCard.List>
