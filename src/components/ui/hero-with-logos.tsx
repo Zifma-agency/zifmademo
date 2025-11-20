@@ -104,7 +104,7 @@ className="absolute -top-6 left-6 z-20 h-32 md:h-44 w-auto"
 
         <div className="flex items-start justify-center divide-y divide-white/10 px-4 sm:px-8 md:px-24">
           <div className="flex w-full max-w-[90vw] sm:max-w-[80vw] flex-col items-center justify-start md:!max-w-[392px]">
-            <a href="https://wa.me/917729876070?text=Hi%21%20I%E2%80%99m%20interested%20in%20your%20services." target="_blank" rel="noopener noreferrer" className="w-full cursor-pointer">
+           <a href="#offer" className="w-full cursor-pointer">
               <div
                 className={clsx(
                   'boder-2 !h-12 sm:!h-14 flex-col items-center justify-center rounded-none border-none text-sm sm:!text-base',
