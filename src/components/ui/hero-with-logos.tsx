@@ -87,7 +87,7 @@ className="absolute -top-6 left-6 z-20 h-32 md:h-44 w-auto"
 />
 
       
-      <div className="relative z-10 flex flex-col divide-y divide-white/10 pt-[35px]">
+      <div className="relative z-10 flex flex-col pt-[35px]">
         <div>
           <div className="mx-auto flex flex-col items-center justify-center gap-3 sm:gap-4 px-4 py-8 sm:px-10 lg:px-24 max-w-[900px]">
 
