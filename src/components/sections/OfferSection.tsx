@@ -135,7 +135,7 @@ const OfferSection = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.1 }}
           >
-            <PricingCard.Card className="max-w-sm">
+            <PricingCard.Card className="w-[360px]">
               <PricingCard.Header>
                 <PricingCard.Plan>
                   <PricingCard.PlanName>
@@ -185,7 +185,7 @@ const OfferSection = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.2 }}
           >
-            <PricingCard.Card className="max-w-sm border-primary/50 shadow-xl shadow-primary/20">
+            <PricingCard.Card className="w-[360px] border-primary/50 shadow-xl shadow-primary/20">
               <PricingCard.Header>
                 <PricingCard.Plan>
                   <PricingCard.PlanName>
@@ -235,7 +235,7 @@ const OfferSection = () => {
             viewport={{ once: true }}
             transition={{ duration: 0.6, delay: 0.3 }}
           >
-            <PricingCard.Card className="max-w-sm border-amber-500/50">
+            <PricingCard.Card className="w-[360px] border-amber-500/50">
               <PricingCard.Header>
                 <PricingCard.Plan>
                   <PricingCard.PlanName>
