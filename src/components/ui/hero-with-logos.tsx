@@ -91,7 +91,7 @@ className="absolute -top-6 left-6 z-20 h-32 md:h-44 w-auto"
         <div>
           <div className="mx-auto flex min-h-[320px] sm:min-h-[350px] md:h-[288px] max-w-[90vw] md:max-w-[80vw] shrink-0 flex-col items-center justify-center gap-3 sm:gap-4 px-4 py-8 sm:px-10 lg:px-24">
             <h1 className="font-montserrat text-pretty text-center text-[32px] leading-[38px] sm:text-4xl sm:leading-[44px] md:text-5xl md:leading-[56px] lg:text-[67px] font-semibold lg:leading-[74px] tracking-tight md:max-w-screen-lg text-white">
-              Launch Your Business Website in{' '}
+              Get a Modern, High-Converting Website Built in Just 7 Days
               <span className="italic text-white">
                 48 Hours
               </span>
