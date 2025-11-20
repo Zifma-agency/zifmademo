@@ -45,7 +45,7 @@ const CTASection = () => {
             Ready to launch your website?
           </h2>
           <p className="text-lg md:text-xl mb-8 opacity-90">
-            Get your professional website live in just 48 hours
+            Get your professional website live in just 7 days without agency pricing
           </p>
         </motion.div>
 
