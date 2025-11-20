@@ -102,9 +102,10 @@ className="absolute -top-6 left-6 z-20 h-32 md:h-44 w-auto"
     lg:text-[67px] lg:leading-tight
     max-w-[900px]
   ">
-              <span className="block">Get a Modern, High-Converting</span>
+  <span className="block">Get a Modern, High-Converting</span>
   <span className="block">Website Built in Just</span>
   <span className="block italic text-white">7 Days</span>
+            </h1>
             <h2 className="font-outfit text-[16px] leading-[26px] sm:text-[18px] sm:leading-[28px] md:text-[20px] md:leading-[30px] font-normal max-w-[280px] sm:max-w-xl md:max-w-2xl text-pretty text-center px-2" style={{ color: 'rgb(176, 176, 176)' }}>
               Professional, fast, SEO-ready websites that help your business look credible and attract more customers without agency pricing.
             </h2>
