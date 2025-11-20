@@ -5,44 +5,44 @@ const HowItWorksSection = () => {
   const steps = [
     {
       icon: MessageSquare,
-      time: "Hour 0",
+      time: "Day 0",
       title: "You Brief Us",
-      description: "Tell us about your business, goals, and vision through our simple questionnaire. Takes 15 minutes.",
+      description: "Tell us about your clinic, services, and goals through our quick onboarding form.Time needed: 10–15 minutes and setup hosting and domain",
       color: "from-primary/20 to-primary/5"
     },
     {
       icon: Cpu,
-      time: "Hour 1-12",
-      title: "AI Builds",
-      description: "Our AI analyzes thousands of design patterns and generates your custom website foundation.",
+      time: "Day 1",
+      title: "We Plan Your Site",
+      description: "We Propose you with 3 options of design styles and layouts to finalize",
       color: "from-accent/20 to-accent/5"
     },
     {
       icon: Palette,
-      time: "Hour 12-36",
-      title: "Humans Perfect",
-      description: "Our design experts review, refine, and customize every element to match your brand.",
+      time: "Day 2–3",
+      title: "We Build the Core Website",
+      description: "Your website framework is created: Pages structured Content placed Initial design ready Mobile responsiveness a working preview.",
       color: "from-primary/20 to-primary/5"
     },
     {
       icon: Eye,
-      time: "Hour 36-44",
-      title: "Your Review",
-      description: "We send you the site for feedback. Request changes, we implement immediately.",
+      time: "Day 4–5",
+      title: "Design, Branding & Optimization",
+      description: "We refine every detail to match your clinic’s look and feel with Integrations (Contact/WhatsApp/Forms)",
       color: "from-accent/20 to-accent/5"
     },
     {
       icon: Rocket,
-      time: "Hour 44-48",
-      title: "We Launch",
-      description: "Final checks, optimization, and your site goes live. Welcome to the internet.",
+      time: "Day 6",
+      title: "Your Review",
+      description: "Final checks, optimization,quick revisions and your site goes live. Welcome to the internet.",
       color: "from-primary/20 to-primary/5"
     },
     {
       icon: HeadphonesIcon,
       time: "Post-Launch",
       title: "Ongoing Support",
-      description: "2 weeks of support included. We're here if you need anything.",
+      description: "Every package includes free support (14–45 days depending on plan).",
       color: "from-accent/20 to-accent/5"
     }
   ];
